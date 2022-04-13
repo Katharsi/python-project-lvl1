@@ -1,18 +1,18 @@
-name: flake8-pytest
+name: flake8
 
 on:
- - push
- - pull_request
+  - push
+  - pull_request
 
 jobs:
-  flake8-pytest:
+  flake8:
     runs-on: ubuntu-latest
     steps:
- - uses: actions/checkout@v2
- - name: linter
+      - uses: actions/checkout@v2
+      - name: linter-test
         run: |
- pip install poetry
- make install
- - name: Run linter
+          pip install poetry
+          make install
+      - name: linter
         run: |
- make lint
+          make lint
