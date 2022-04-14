@@ -3,4 +3,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-[![Actions Status](https://github.com/Katharsi/python-project-lvl1/workflows/flake8-test/badge.svg)](https://github.com/Katharsi/python-project-lvl1/actions)
+[![Actions Status](https://github.com/Katharsi/python-project-lvl1/workflows/flake8/badge.svg)](https://github.com/Katharsi/python-project-lvl1/actions)
