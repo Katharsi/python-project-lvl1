@@ -3,7 +3,7 @@ from brain_games import cli
 
 
 def main():
-    cli.welcome_user()
+    cli.get_welcome_username()
 
 
 if __name__ == '__main__':
