@@ -1,10 +1,7 @@
-from brain_games import cli
+from random import randint
+
+from brain_games.cli import get_welcome_username, get_answer_user
 
 
-def main():
-    cli.get_welcome_username()
-
-if __name__ == '__main__':
-    main()
-
-print('Answer "yes" if the number is even, otherwise answer "no".')
+def greeting():
+    return get_welcome_username()
