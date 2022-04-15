@@ -8,25 +8,21 @@ NUMBER_OF_ROUND = 3
 
 def generate_number():
     number = randint(1, 99)
-    answer = 'yes' if get_even_number(number) is True else 'no'
+    answer = 'yes' if number % 2 == 0 is True else 'no'
     return str(number), answer
 
 
-def get_even_number(number):
-    return number % 2 == 0
-
-
-def get_game(game):
+def get_game():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.DESCRIPTION)
+    print(DESCRIPTION)
     start_round = 1
 
     for start_round in range(NUMBER_OF_ROUND):
-        question, answer = game.generate_number()
+        question, answer = generate_number()
         print(f'Question: {question}')
-    
+
         user_answer = prompt.string('Your answer: ')
         if str(user_answer) == str(answer):
             print('Correct!')
