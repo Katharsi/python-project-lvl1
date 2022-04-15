@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-from brain_games.even_or_odd import get_game
+from brain_games import even_or_odd
 
 
 def main():
-    get_game()   
+    even_or_odd.get_game()   
 
 
 if __name__ == '__main__':
