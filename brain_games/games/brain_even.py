@@ -9,7 +9,8 @@ def is_even(number):
     Checking the number for parity.
     Boolean type - True or False.
     """
-    
+
+
     return number % 2 == 0
 
 
