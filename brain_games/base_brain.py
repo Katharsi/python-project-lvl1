@@ -27,7 +27,6 @@ def run_game(game, game_rounds=3):
         game_question, correct_answer = game.generate_number()
         print(f'Question: {game_question}')
         user_answer = get_answer_user()
-        print(user_answer)
         if user_answer == correct_answer:
             print('Correct!')
             game_rounds -= 1
