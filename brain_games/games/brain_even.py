@@ -4,13 +4,12 @@ from random import randint
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def is_even(number):
     """
     Checking the number for parity.
     Boolean type - True or False.
     """
-
-
     return number % 2 == 0
 
 
