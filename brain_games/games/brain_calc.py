@@ -6,7 +6,7 @@ DESCRIPTION = 'What is the result of the expression?'
 OPERATOR = ['+', '-', '*']
 
 
-def generate_number_equation():
+def generate_number():
     """Generate math random number and operator."""
     number_one = randint(1, 99)
     number_two = randint(1, 99)
