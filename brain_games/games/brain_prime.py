@@ -17,7 +17,7 @@ def is_prime(number):
         return False
 
 
-def generate_number():
+def get_random_number():
     """Creating a question-answer form."""
     number = randint(1, 100)
     correct_answer = 'yes' if is_prime(number) else 'no'
