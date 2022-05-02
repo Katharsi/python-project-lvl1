@@ -5,7 +5,7 @@ ___
 
 **Brain Games** *is a series of five mini-games that allows you to train your brain based on mathematical expressions.*
 
-#### ***Installition***
+#### ***Installation***
 Use the package manager `pip` to install Brain Games.
 ```
 pip install --user --extra-index-url https://test.pypi.org/simple/ katharsi-brain-games
