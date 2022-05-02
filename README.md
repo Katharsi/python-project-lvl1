@@ -10,7 +10,7 @@ ___
 - _Parity check_ *`brain-even`*
 - _Simple calculator_ *`brain-calc`*
 - _Greatest common division_ *`brain-gcd`*
-- *`brain-progression`*
+- _Arithmetic progression_ *`brain-progression`*
 - *`brain-prime`*
 ___
 
@@ -58,3 +58,15 @@ ___
 ___
 
 4. ***Brain-progression***
+
+>We show the player a series of numbers forming an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number.
+
+- *Run brain-progression*
+- *Welcome moment: write your name and we will definitely greet you*
+- *Get a question from us and give an answer to it*
+- *If you answer correctly, the game continues. Only 3 rounds</br>At the end of the game we will definitely congratulate you*
+- *If you answer incorrectly, then don't worry. After all, the game can be started again*
+- ***Good luck!***
+___
+
+5. ***Brain-prime***
