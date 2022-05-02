@@ -5,6 +5,12 @@ ___
 
 **Brain Games** *is a series of five mini-games that allows you to train your brain based on mathematical expressions.*
 
+#### ***Installition***
+Use the package manager `pip` to install Brain Games.
+```
+pip install --user --extra-index-url https://test.pypi.org/simple/ katharsi-brain-games
+```
+
 *__Get start and do this:__*
 
 - _Parity check_ *`brain-even`*
@@ -14,7 +20,7 @@ ___
 - _Prime number_ *`brain-prime`*
 ___
 
-#### Hexlet tests and linter status:
+#### ***Hexlet tests and linter status:***
 [![Actions Status](https://github.com/Katharsi/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Katharsi/python-project-lvl1/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
