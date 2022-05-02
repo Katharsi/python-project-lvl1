@@ -7,9 +7,10 @@ from random import choice, randint
 DESCRIPTION = 'What is the result of the expression?'
 
 
-operators = {'+': operator.add,
-             '-': operator.sub,
-             '*': operator.mul,
+operators = {
+    '+': operator.add,
+    '-': operator.sub,
+    '*': operator.mul,
 }
 
 
