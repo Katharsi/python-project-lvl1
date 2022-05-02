@@ -5,22 +5,19 @@ from random import randint
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def get_progression(start_number, step_progression, length_progression):
-    """Generating an arithmetic progression with a random skip."""
-    return list(range(start_number,
-                      start_number + length_progression * step_progression,
-                      step_progression))
+def generate_ar_progression(start_number, step, length):
+    """Generate arithmetic progression."""
+    return list(range(start_number, start_number + length * step, step))
 
 
-def generate_number():
-    """Generating an arithmetic progression with a random skip."""
-    start_number = randint(1, 99)
-    step_progression = randint(1, 99)
-    length_progression = 10
-    func_progression = [str(num) for num in get_progression(start_number,
-                                                            step_progression,
-                                                            length_progression)]
-    missing_num = randint(0, len(func_progression) - 1)
-    correct_answer = func_progression[missing_num]
-    func_progression[missing_num] = '..'
-    return ' '.join(func_progression), correct_answer
+def get_random_number():
+    """Create past num in getting progression."""
+    start_number = randint(1, 50)
+    step = randint(1, 25)
+    length = 10
+    ar_progression = [str(num) for num in generate_ar_progression(
+        start_number, step, length)]
+    missing_num = randint(0, len(ar_progression) - 1)
+    correct_answer = ar_progression[missing_num]
+    ar_progression[missing_num] = '..'
+    return ' '.join(ar_progression), correct_answer
