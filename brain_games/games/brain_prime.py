@@ -5,21 +5,21 @@ from random import randint
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def prime_number(number):
+def is_prime(number):
     """Get prime number."""
-    if number < 2:
-        return False
-    i = 2
-    while i <= number // 2:
+    count = 0
+    for i in range(2, number // 2 + 1):
         if number % i == 0:
-            return False
-        i += 1
-    return True
+            count += 1
+    if count <= 0:
+        return True
+    else:
+        return False
 
 
 def generate_number():
     """Creating a question-answer form."""
-    number = randint(1, 99)
-    correct_answer = 'yes' if prime_number(number) else 'no'
+    number = randint(1, 100)
+    correct_answer = 'yes' if is_prime(number) else 'no'
     game_question = f'Question: {number}'
     return game_question, correct_answer
