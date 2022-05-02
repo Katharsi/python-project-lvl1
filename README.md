@@ -7,8 +7,8 @@ ___
 
 *__Get start and do this:__*
 
-- Parity check *`brain-even`*
-- *`brain-calc`*
+- _Parity check_ *`brain-even`*
+- _Simple arithmetic expressions_ *`brain-calc`*
 - *`brain-gcd`*
 - *`brain-progression`*
 - *`brain-prime`*
@@ -23,16 +23,38 @@ ___
 
 1. ***Brain-even***
 
->Simple rules of the game. You have to give the correct answer whether the number is even (write 'yes') or odd (wrire 'no')
+>A random number is shown to the user. And he needs to answer yes if the number is even, or no if it is odd.
 
-   - Run brain-even
+   - *Run brain-even*
 
-   - Welcome moment: write your name and we will definitely greet you
+   - *Welcome moment: write your name and we will definitely greet you*
 
-   - Get a question from us and give an answer to it
+   - *Get a question from us and give an answer to it*
 
-   - If you answer correctly, the game continues. Only 3 rounds</br>At the end of the game we will definitely congratulate you
+   - *If you answer correctly, the game continues. Only 3 rounds</br>At the end of the game we will definitely congratulate you*
 
-   - If you answer incorrectly, then don't worry. After all, the game can be started again
+   - *If you answer incorrectly, then don't worry. After all, the game can be started again*
 
-   - Good luck!
+   - ***Good luck!***
+
+___
+
+2. ***Brain-calc***
+
+>The user is shown a random mathematical expression, for example 35 + 16, which needs to be calculated and written down the correct answer.
+
+   - *Run brain-calc*
+
+   - *Welcome moment: write your name and we will definitely greet you*
+
+   - *Get a question from us and give an answer to it*
+
+   - *If you answer correctly, the game continues. Only 3 rounds</br>At the end of the game we will definitely congratulate you*
+
+   - *If you answer incorrectly, then don't worry. After all, the game can be started again*
+
+   - ***Good luck!***
+
+___
+
+3. 
