@@ -5,7 +5,7 @@ from random import randint
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def generate_number():
+def get_random_number():
     """Generate random numbers and find the largest divisor."""
     number_one = randint(1, 100)
     number_two = randint(1, 100)
