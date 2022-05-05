@@ -7,7 +7,6 @@ def welcome_user():
     print('Welcome to the Brain Games!')
     username = prompt.string('May I have your name? ')
     print(f'Hello, {username}!')
-    return username
 
 
 def run_game(game, game_rounds=3):
@@ -15,7 +14,7 @@ def run_game(game, game_rounds=3):
     username = welcome_user()
     print(game.DESCRIPTION)
     while game_rounds:
-        game_question, correct_answer = game.generate_number()
+        game_question, correct_answer = game.get_random_number()
         print(f'Question: {game_question}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:

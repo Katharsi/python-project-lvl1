@@ -13,9 +13,9 @@ def is_even(number):
     return number % 2 == 0
 
 
-def generate_number():
+def get_random_number():
     """Creating a question-answer form."""
 
-    game_question = randint(1, 99)
+    game_question = randint(0, 100)
     correct_answer = 'yes' if is_even(game_question) else 'no'
     return game_question, correct_answer
