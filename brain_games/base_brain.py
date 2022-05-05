@@ -11,7 +11,12 @@ def welcome_user():
 
 
 def run_game(game, game_rounds=3):
-    """Run base menu game."""
+    """
+    Run base menu game.
+    Give a question.
+    Get correct and user answer.
+    """
+    
     username = welcome_user()
     print(game.DESCRIPTION)
     while game_rounds:
